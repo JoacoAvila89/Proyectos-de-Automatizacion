@@ -14,7 +14,7 @@ public class ConectarSqlServer {
 	
 		System.out.println("Driver cargado");
 	
-		Connection con = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;" + "databaseName=Northwind;integratedSecurity=true;");
+		Connection con = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;" + "databaseName=*******;integratedSecurity=true;");
 	
 		System.out.println("Conectando con mi base de datos SqlServer\n\n");
 	
