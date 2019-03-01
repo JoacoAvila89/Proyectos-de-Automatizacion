@@ -16,7 +16,7 @@ public class ConectarMysql {
 	
 		System.out.println("Driver cargado");
 	
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/libreria_cf", "root", "1989ingeniero+");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/******", "root", "****");
 	
 		System.out.println("Conectando con mi base de datos Mysql");
 	
